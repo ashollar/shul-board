@@ -31,10 +31,8 @@
       window.console.log(previousframetext+" change to "+frametext);
       let currentdiv=document.getElementById(frametext);
       let previousdiv=document.getElementById(previousframetext);
-       try{
-        previousdiv.style.display="none";
-        currentdiv.style.display="block";
-       }catch(err){}
+       try{previousdiv.style.display="none";}catch(err){}
+       try{currentdiv.style.display="block";}catch(err){}
 
       frame =frame+1;
       if(frame==frames+1){
