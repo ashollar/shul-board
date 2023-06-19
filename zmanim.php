@@ -129,6 +129,11 @@
     <H1 style="margin:0px;"><?php echo $raw['Daily Mitzvah - Sefer Hamitzvot'];?></H1>
     </div>
   </div>
+  <div id="frame3" class="frame">
+    <div class="center">
+      <h1>hi</h1>
+    </div>
+  </div>
   
 
 </body>
