@@ -7,7 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php $zmanim=zmanim(); $keys=array_keys($zmanim);?>
     <?php $raw=dailystudy(); $keys=array_keys($raw);?>
+  <style>
+    frame {
+      display:none;
+      width:100%;
+      height:100%;
+      margin:0px;
+      z-index:1;
+      position:
+      fixed;
+      top: 0;
+      left: 0;
 
+    }
+  </style>
   </head>
   <script>
     let frame = 1;
@@ -67,7 +80,7 @@
     <div id="clock" style="z-index:11;width:30vw;height:6vh;background-color:white;position:absolute;bottom:50px;border-radius:10px;"></div>
   </div>
 
-  <div id="frame1" style='display:none;width:100%;height:100%;margin:0px;z-index:1;position: fixed;top: 0;left: 0;'>
+  <div id="frame1" class="frame">
     <br>
     <br>
     <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
@@ -86,7 +99,7 @@
     <H2 style="margin:0px;">חצות</H2>
     <H1 style="margin:0px;"><?php echo $zmanim['חצות הלילה (הלילה) ']['time'];?></H1>
   </div >
-  <div id="frame2" style='display:none;width:100%;height:100%;margin:0px;z-index:1;position: fixed;top: 0;left: 0;'>
+  <div id="frame2" class="frame">
     <H2 style="margin:0px;">חומש</H2>
     <H1 style="margin:0px;"><?php echo $raw['Daily Chumash with Rashi'];?></H1>
 
