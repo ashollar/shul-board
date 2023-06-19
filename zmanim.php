@@ -63,7 +63,7 @@
     <div style="width:100vw;height:4vh;background-color:rgb(104,10,32);position:absolute;bottom:0px;">
     </div>
   </div>
-    <H1 id="clock"></H1>
+    <H1 id="clock" style="margin:0px;"></H1>
   </div>
 
   <div id="frame1" style='width:100%;height:100%;margin:0px;z-index:1;position: fixed;top: 0;left: 0;'>
