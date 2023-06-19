@@ -6,6 +6,7 @@
     <meta name="viewport" content="minimal-ui">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php $raw=zmanim(); $keys=array_keys($raw);?>
+    <?php $raw=dailystudy(); $keys=array_keys($raw);?>
 
   </head>
   <script>
@@ -85,6 +86,26 @@
     <H2 style="margin:0px;">חצות</H2>
     <H1 style="margin:0px;"><?php echo $raw['חצות הלילה (הלילה) ']['time'];?></H1>
   </div >
+  <div id="frame1" style='width:100%;height:100%;margin:0px;z-index:1;position: fixed;top: 0;left: 0;'>
+    <H2 style="margin:0px;">חומש</H2>
+    <H1 style="margin:0px;"><?php echo $raw['Daily Chumash with Rashi'];?></H1>
+
+    <H2 style="margin:0px;">תהילים</H2>
+    <H1 style="margin:0px;"><?php echo $raw['Daily Tehilim - Psalms'];?></H1>
+ 
+    <H2 style="margin:0px;">תניא</H2>
+    <H1 style="margin:0px;"><?php echo $raw['Daily Tanya'];?></H1>
+
+    <H2 style="margin:0px;">רמב"ם - פרק אחד</H2>
+    <H1 style="margin:0px;"><?php echo $raw['Daily Rambam - 1 Chapter Per Day (Hebrew)'];?></H1>
+
+    <H2 style="margin:0px;">רמב"ם שלש פרקים</H2>
+    <H1 style="margin:0px;"><?php echo $raw['Daily Rambam - 3 Chapter Per Day (Hebrew)'];?></H1>
+
+    <H2 style="margin:0px;">ספר המצוות</H2>
+    <H1 style="margin:0px;"><?php echo $raw['Daily Mitzvah - Sefer Hamitzvot'];?></H1>
+  </div>
+  
 
 </body>
 </html>
