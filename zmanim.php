@@ -9,7 +9,7 @@
 
   </head>
   <script>
-    let frame = 0;
+    let frame = 1;
     function initialize(){
       startTime();
       //check for updates
@@ -27,7 +27,7 @@
       window.console.log(frametext);
 
       frame =frame+1;
-      if(frame==10){
+      if(frame==11){
         frame=0;
 
       }
