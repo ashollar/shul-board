@@ -35,11 +35,10 @@
       height:6vh;
       background-color:white;
       position:absolute;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+      margin-left: auto;
+      margin-right: auto;
       bottom:50px;
-      border-radius:10px;
+      border-radius:30px;
     }
   </style>
   </head>
