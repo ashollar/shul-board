@@ -44,7 +44,7 @@
       let h = today.getHours();
       let m = today.getMinutes();
       m = checkTime(m);
-      document.getElementById('txt').innerHTML =  h + ":" + m ;
+      try{document.getElementById('txt').innerHTML =  h + ":" + m ;}catch(err){}
       setTimeout(startTime, 1000);
     }
 
@@ -59,22 +59,23 @@
  
  <div id="frame1" style='background-color:white;border-radius:10px;'></div>
 
- <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
- <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
+  <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
+  <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
 
- <H2 style="margin:0px;">חצות היום</H2>
- <H1 style="margin:0px;"><?php echo $raw['חצות (היום) ']['time'];?></H1>
+  <H2 style="margin:0px;">חצות היום</H2>
+  <H1 style="margin:0px;"><?php echo $raw['חצות (היום) ']['time'];?></H1>
 
- <H2 style="margin:0px;">שקיעת החמה</H2>
- <H1 style="margin:0px;"><?php echo $raw['שקיעת החמה (שקיעה) ']['time'];?></H1>
+  <H2 style="margin:0px;">שקיעת החמה</H2>
+  <H1 style="margin:0px;"><?php echo $raw['שקיעת החמה (שקיעה) ']['time'];?></H1>
 
  
- <H2 style="margin:0px;">צאת הכוכבים</H2>
- <H1 style="margin:0px;"><?php echo $raw['לילה (צאת הכוכבים) ']['time'];?></H1>
+  <H2 style="margin:0px;">צאת הכוכבים</H2>
+  <H1 style="margin:0px;"><?php echo $raw['לילה (צאת הכוכבים) ']['time'];?></H1>
 
- <H2 style="margin:0px;">חצות</H2>
- <H1 style="margin:0px;"><?php echo $raw['חצות הלילה (הלילה) ']['time'];?></H1>
+  <H2 style="margin:0px;">חצות</H2>
+  <H1 style="margin:0px;"><?php echo $raw['חצות הלילה (הלילה) ']['time'];?></H1>
 
 </div >
+
 </body>
 </html>
