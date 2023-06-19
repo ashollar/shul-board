@@ -46,7 +46,7 @@
       let h = today.getHours();
       let m = today.getMinutes();
       m = checkTime(m);
-      try{document.getElementById('txt').innerHTML =  h + ":" + m ;}catch(err){}
+      try{document.getElementById('clock').innerHTML =  h + ":" + m ;}catch(err){}
       setTimeout(startTime, 1000);
     }
 
