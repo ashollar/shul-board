@@ -29,7 +29,7 @@
       let frametext="frame"+frame.toString();
       window.console.log(previousframe+" change to "+frametext);
        let currentdiv=document.getElementById(frametext);
-       previousframediv.style.display="none";
+       previousframe.style.display="none";
        currentdiv.style.display="block";
 
       frame =frame+1;
