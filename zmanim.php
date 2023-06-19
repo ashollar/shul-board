@@ -35,8 +35,9 @@
       height:6vh;
       background-color:white;
       position:absolute;
-      margin-left: auto;
-      margin-right: auto;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
       bottom:50px;
       border-radius:30px;
     }
