@@ -28,7 +28,7 @@
       if (previousframe==0){previousframe = frames;}
       let previousframetext="frame"+previousframe.toString();
       let frametext="frame"+frame.toString();
-      window.console.log(previousframe+" change to "+frametext);
+      window.console.log(previousframetext+" change to "+frametext);
       let currentdiv=document.getElementById(frametext);
       let previousdiv=document.getElementById(previousframetext);
        try{
@@ -61,8 +61,9 @@
  
  <div style='background-image:url("background2.jpg");width:100%;height:100%;margin:0px;'>
  
- <div id="frame1" style='background-color:white;border-radius:10px;'></div>
+<div id="txt" style='background-color:white;border-radius:10px;'></div>
 
+<div id="frame1">
   <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
   <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
 
@@ -78,7 +79,6 @@
 
   <H2 style="margin:0px;">חצות</H2>
   <H1 style="margin:0px;"><?php echo $raw['חצות הלילה (הלילה) ']['time'];?></H1>
-
 </div >
 
 </body>
