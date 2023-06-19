@@ -109,6 +109,7 @@
     </div>
   </div >
   <div id="frame2" class="frame">
+    <div class="center">
     <H2 style="margin:0px;">חומש</H2>
     <H1 style="margin:0px;"><?php echo $raw['Daily Chumash with Rashi'];?></H1>
 
@@ -126,6 +127,7 @@
 
     <H2 style="margin:0px;">ספר המצוות</H2>
     <H1 style="margin:0px;"><?php echo $raw['Daily Mitzvah - Sefer Hamitzvot'];?></H1>
+    </div>
   </div>
   
 
