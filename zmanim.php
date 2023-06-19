@@ -10,6 +10,7 @@
   </head>
   <script>
     let frame = 1;
+    let frames = 6;
     function initialize(){
       startTime();
       //check for updates
@@ -23,11 +24,15 @@
 
     }
     function shiftframes(){
+      let previousframe = frame-1;
+      if (previousframe==0){previousframe = frames;}
       let frametext="frame"+frame.toString();
-      window.console.log(frametext);
+      window.console.log(previousframe+" change to "+frametext);
+       let currentdiv=document.getElementById(frametext);
+       currentdiv
 
       frame =frame+1;
-      if(frame==11){
+      if(frame==frames+1){
         frame=1;
 
       }
