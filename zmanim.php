@@ -86,7 +86,7 @@
     <H2 style="margin:0px;">חצות</H2>
     <H1 style="margin:0px;"><?php echo $raw['חצות הלילה (הלילה) ']['time'];?></H1>
   </div >
-  <div id="frame1" style='width:100%;height:100%;margin:0px;z-index:1;position: fixed;top: 0;left: 0;'>
+  <div id="frame2" style='width:100%;height:100%;margin:0px;z-index:1;position: fixed;top: 0;left: 0;'>
     <H2 style="margin:0px;">חומש</H2>
     <H1 style="margin:0px;"><?php echo $raw['Daily Chumash with Rashi'];?></H1>
 
