@@ -29,6 +29,18 @@
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
     }
+    .clock{
+      z-index:11;
+      width:30vw;
+      height:6vh;
+      background-color:white;
+      position:absolute;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      bottom:50px;
+      border-radius:10px;
+    }
   </style>
   </head>
   <script>
@@ -86,7 +98,7 @@
     <div style="width:100vw;height:6vh;background-color:rgb(104,10,32);position:absolute;bottom:0px;">
     </div>
   </div>
-    <div id="clock" style="z-index:11;width:30vw;height:6vh;background-color:white;position:absolute;bottom:50px;border-radius:10px;"></div>
+    <div id="clock" class="clock"></div>
   </div>
 
   <div id="frame1" class="frame">
