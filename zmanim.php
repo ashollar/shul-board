@@ -28,7 +28,7 @@
 
       frame =frame+1;
       if(frame==11){
-        frame=0;
+        frame=1;
 
       }
 
