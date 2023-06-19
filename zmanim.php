@@ -5,7 +5,7 @@
     <?php include "utils.php"?>
     <meta name="viewport" content="minimal-ui">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php $raw=zmanim(); $keys=array_keys($raw);?>
+    <?php $zmanim=zmanim(); $keys=array_keys($zmanim);?>
     <?php $raw=dailystudy(); $keys=array_keys($raw);?>
 
   </head>
@@ -71,20 +71,20 @@
     <br>
     <br>
     <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
-    <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
+    <H1 style="margin:0px;"><?php echo $zmanim['סוף זמן קריאת שמע ']['time'];?></H1>
 
     <H2 style="margin:0px;">חצות היום</H2>
-    <H1 style="margin:0px;"><?php echo $raw['חצות (היום) ']['time'];?></H1>
+    <H1 style="margin:0px;"><?php echo $zmanim['חצות (היום) ']['time'];?></H1>
 
     <H2 style="margin:0px;">שקיעת החמה</H2>
-    <H1 style="margin:0px;"><?php echo $raw['שקיעת החמה (שקיעה) ']['time'];?></H1>
+    <H1 style="margin:0px;"><?php echo $zmanim['שקיעת החמה (שקיעה) ']['time'];?></H1>
 
  
     <H2 style="margin:0px;">צאת הכוכבים</H2>
-    <H1 style="margin:0px;"><?php echo $raw['לילה (צאת הכוכבים) ']['time'];?></H1>
+    <H1 style="margin:0px;"><?php echo $zmanim['לילה (צאת הכוכבים) ']['time'];?></H1>
 
     <H2 style="margin:0px;">חצות</H2>
-    <H1 style="margin:0px;"><?php echo $raw['חצות הלילה (הלילה) ']['time'];?></H1>
+    <H1 style="margin:0px;"><?php echo $zmanim['חצות הלילה (הלילה) ']['time'];?></H1>
   </div >
   <div id="frame2" style='display:none;width:100%;height:100%;margin:0px;z-index:1;position: fixed;top: 0;left: 0;'>
     <H2 style="margin:0px;">חומש</H2>
