@@ -10,7 +10,7 @@
   </head>
   <script>
     let frame = 1;
-    let frames = 6;
+    let frames = 3;
     function initialize(){
       startTime();
       //check for updates
