@@ -11,11 +11,25 @@
   <script>
     function initialize(){
       startTime();
-      //check for updates every minute
-      setTimeout(updater, 60000);
+      //check for updates
+      setTimeout(updater, 600000);
+      //shift frames
+      let frame = 0;
+      setInterval(shiftframes,1000);
     }
     function updater(){
       location.reload();
+
+    }
+    function shiftframes(){
+      let frametext="frame"+frame.toString();
+      window.console.log(frametext);
+
+      frame =frame+1;
+      if(frame==10){
+        frame=0;
+
+      }
 
     }
     function startTime() {
