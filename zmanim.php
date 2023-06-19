@@ -64,7 +64,7 @@
     <div style="width:100vw;height:6vh;background-color:rgb(104,10,32);position:absolute;bottom:0px;">
     </div>
   </div>
-    <div id="clock" style="width:30vw;height:6vh;background-color:white;position:absolute;bottom:50px;border-radius:10px;"></div>
+    <div id="clock" style="z-index:11;width:30vw;height:6vh;background-color:white;position:absolute;bottom:50px;border-radius:10px;"></div>
   </div>
 
   <div id="frame1" style='display:none;width:100%;height:100%;margin:0px;z-index:1;position: fixed;top: 0;left: 0;'>
