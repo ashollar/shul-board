@@ -55,13 +55,13 @@
       return i;
     }
 </script>
-<body onload="initialize()" style="font-size:80px;text-align:center;margin:0px;height:100vh;">
+<body onload="initialize()" style="font-size:80px;text-align:center;margin:0px;height:100vh;background-image:url('background2.jpg');">
  
   <div id="overlay" style="z-index:10;display:block;position: fixed;top: 0;left: 0;">
     <H1 id="clock"></H1>
   </div>
 
-  <div id="frame1" style='background-image:url("background2.jpg");width:100%;height:100%;margin:0px;z-index:1;position: fixed;top: 0;left: 0;'>
+  <div id="frame1" style='width:100%;height:100%;margin:0px;z-index:1;position: fixed;top: 0;left: 0;'>
     <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
     <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
 
