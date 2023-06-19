@@ -58,6 +58,8 @@
 <body onload="initialize()" style="font-size:80px;text-align:center;margin:0px;height:100vh;background-image:url('background2.jpg');">
  
   <div id="overlay" style="z-index:10;display:block;position: fixed;top: 0;left: 0;">
+  <div style="width:100vw;height:6vh;background-color:rgb(104,10,32);">
+  </div>
     <H1 id="clock"></H1>
   </div>
 
