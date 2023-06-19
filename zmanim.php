@@ -60,7 +60,7 @@
   <div id="overlay" style="height:100vh;width:100vw;z-index:10;display:block;position: fixed;top: 0;left: 0;">
     <div style="width:100vw;height:4vh;background-color:rgb(104,10,32);">
     </div>
-    <div style="width:100vw;height:4vh;background-color:rgb(104,10,32);position:relative;bottom:0px;">
+    <div style="width:100vw;height:4vh;background-color:rgb(104,10,32);position:absolute;bottom:0px;">
     </div>
   </div>
     <H1 id="clock"></H1>
