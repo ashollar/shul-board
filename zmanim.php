@@ -16,7 +16,7 @@
       setTimeout(updater, 600000);
       //shift frames
       
-      setInterval(shiftframes,2000);
+      setInterval(shiftframes,4000);
     }
     function updater(){
       location.reload();
