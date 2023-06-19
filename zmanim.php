@@ -9,12 +9,13 @@
 
   </head>
   <script>
+    let frame = 0;
     function initialize(){
       startTime();
       //check for updates
       setTimeout(updater, 600000);
       //shift frames
-      let frame = 0;
+      
       setInterval(shiftframes,1000);
     }
     function updater(){
