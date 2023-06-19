@@ -20,6 +20,13 @@
       left: 0;
 
     }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 3px solid green; 
+    }
   </style>
   </head>
   <script>
@@ -81,8 +88,8 @@
   </div>
 
   <div id="frame1" class="frame">
-    <br>
-    <br>
+
+    <div class="center">
     <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
     <H1 style="margin:0px;"><?php echo $zmanim['סוף זמן קריאת שמע ']['time'];?></H1>
 
@@ -98,6 +105,7 @@
 
     <H2 style="margin:0px;">חצות</H2>
     <H1 style="margin:0px;"><?php echo $zmanim['חצות הלילה (הלילה) ']['time'];?></H1>
+    </div>
   </div >
   <div id="frame2" class="frame">
     <H2 style="margin:0px;">חומש</H2>
