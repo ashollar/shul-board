@@ -8,7 +8,7 @@
     <?php $zmanim=zmanim(); $keys=array_keys($zmanim);?>
     <?php $raw=dailystudy(); $keys=array_keys($raw);?>
   <style>
-    frame {
+    .frame {
       display:none;
       width:100%;
       height:100%;
