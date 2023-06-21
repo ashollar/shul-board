@@ -152,18 +152,18 @@ const non_perek = {
     
 }
 function rambam(date){
-    var d1 = new Date("04/29/1984");   
-    var d2 = new Date(date);
-    var diff = d2.getTime() - d1.getTime();   
-    var daydiff = diff / (1000 * 60 * 60 * 24); 
-    while(daydiff > 1017){
-        daydiff = daydiff-1017;
+var a = new Date("04/29/1984");
+var a = new Date(date);  
+  const _MS_PER_DAY = 1000 * 60 * 60 * 24;
+  // Discard the time and time-zone information.
+  const utc1 = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
+  const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
 
-    }
-    console.log(daydiff);
+  return Math.floor((utc2 - utc1) / _MS_PER_DAY);
+
 
 }
-rambam(new Date());
+console.log(rambam(new Date()));
 </script>
 </body>
 </html>
