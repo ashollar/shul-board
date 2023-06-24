@@ -141,7 +141,7 @@
     <H1 style="margin:0px;"><?php echo $raw['Daily Rambam - 1 Chapter Per Day (Hebrew)'];?></H1>
 
     <H2 style="margin:0px;">רמב"ם שלש פרקים</H2>
-    <H1 style="margin:0px;"><?php echo explode($raw['Daily Rambam - 3 Chapter Per Day (Hebrew)'])[0].", ".explode($raw['Daily Rambam - 3 Chapter Per Day (Hebrew)'])[1];?></H1>
+    <H1 style="margin:0px;"><?php echo explode(","$raw['Daily Rambam - 3 Chapter Per Day (Hebrew)'])[0].", ".explode(","$raw['Daily Rambam - 3 Chapter Per Day (Hebrew)'])[2];?></H1>
 
     <H2 style="margin:0px;">ספר המצוות</H2>
     <H1 style="margin:0px;"><?php echo $raw['Daily Mitzvah - Sefer Hamitzvot'];?></H1>
