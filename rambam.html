@@ -151,7 +151,8 @@ const non_perek = {
     }
     
 }
-function rambam(date){
+function onechapter(date){
+//calculate what today's section is
 var a = new Date("04/29/1984");
 var b = new Date(date);  
   const _MS_PER_DAY = 1000 * 60 * 60 * 24;
@@ -163,7 +164,19 @@ var b = new Date(date);
   while (difference > 1017){
     difference = difference - 1017;
   }
-  return difference;
+
+
+  perek=difference;
+  //section to perek
+  books=Object.keys(RAMBAM_CONTENTS);
+  for(book in books){
+    sections=Object.keys(books);
+    for (section in sections){
+        perek = perek - 1;
+
+
+    }
+  }
 
 
 }

@@ -8,6 +8,9 @@
     <?php $zmanim=zmanim(); $keys=array_keys($zmanim);?>
     <?php $raw=dailystudy(); $keys=array_keys($raw);?>
   <style>
+    .h2{
+      color:rgb(104,10,32);
+    }
     .frame {
       display:none;
       width:100%;
