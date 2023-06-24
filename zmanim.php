@@ -67,7 +67,6 @@
       if (previousframe==0){previousframe = frames;}
       let previousframetext="frame"+previousframe.toString();
       let frametext="frame"+frame.toString();
-      window.console.log(previousframetext+" change to "+frametext);
       let currentdiv=document.getElementById(frametext);
       let previousdiv=document.getElementById(previousframetext);
        try{previousdiv.style.display="none";}catch(err){}
