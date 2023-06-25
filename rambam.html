@@ -2,6 +2,8 @@
 
 <HTML>
 <body>
+    <H1 id="onechapter"></H1>
+    <H1 id="threechapter"></H1>
 <script>
 const RAMBAM_CONTENTS = {
     "Hakdama":{
@@ -151,36 +153,80 @@ const non_perek = {
     }
     
 }
-function onechapter(date){
-//calculate what today's section is
-var a = new Date("04/29/1984");
-var b = new Date(date);  
-  const _MS_PER_DAY = 1000 * 60 * 60 * 24;
-  // Discard the time and time-zone information.
-  const utc1 = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
-  const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
+function get_difference(date){
+  
+    var a = new Date("1984-04-29");
+    var b = new Date(date); 
+    const _MS_PER_DAY = 1000 * 60 * 60 * 24;
+    // Discard the time and time-zone information.
+    const utc1 = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
+    const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
+    difference = Math.floor((utc2 - utc1) / _MS_PER_DAY);
+    return difference-1;
 
-  difference = Math.floor((utc2 - utc1) / _MS_PER_DAY);
-  while (difference > 1017){
-    difference = difference - 1017;
-  }
-
-
-  perek=difference;
-  //section to perek
-  books=Object.keys(RAMBAM_CONTENTS);
-  for(book in books){
-    sections=Object.keys(books);
-    for (section in sections){
-        perek = perek - 1;
-
-
+}
+function section_to_perek(shiur){
+    perek=shiur;
+    books=Object.keys(RAMBAM_CONTENTS);
+    for (let i = 0; i < books.length; i++) {
+        book=books[i];
+        sections=Object.keys(RAMBAM_CONTENTS[book]);
+        for (let j = 0; j < sections.length; j++){
+            section=sections[j];
+            var perek_count=RAMBAM_CONTENTS[book][section];
+            if(perek <= perek_count){
+                return {"book":book,"section":section,"perek":perek};
+            }else{
+                perek=perek-perek_count;
+                
+            }
+        }
     }
-  }
+}
+
+function non_perek_text(rambam){
+    const non_perakim = Object.keys(non_perek);
+    for (let i = 0; i < non_perakim.length; i++){
+        section=non_perakim[i];
+        if(rambam["section"]==section){
+            var perek=rambam["perek"]
+            rambam["perek"]=non_perek[section][perek];
+        }
+    }
+    return rambam;
 
 
 }
-console.log(rambam(new Date()));
+
+function onechapter(date){
+    difference=get_difference(date);
+    while (difference > 1017){
+        difference = difference - 1017;
+    }
+
+    section=difference;
+
+    today=section_to_perek(section);
+    return non_perek_text(today);
+}
+function threechapter(date){
+    difference=get_difference(date);
+    while (difference > 339){
+        difference = difference - 339;
+    }
+    section=difference*3;
+    section=section+1;
+
+    today=section_to_perek(section);
+    return non_perek_text(today);
+    
+}
+
+console.log(new Date());
+const one_chapter=onechapter(new Date());
+const three_chapter=threechapter(new Date());
+document.getElementById('onechapter').innerHTML=one_chapter["section"]+" "+one_chapter["perek"];
+document.getElementById('threechapter').innerHTML=three_chapter["section"]+" "+three_chapter["perek"];
 </script>
 </body>
 </html>

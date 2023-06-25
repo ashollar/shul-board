@@ -308,6 +308,7 @@ function dailystudy(){
 
     return $shiurim;
     
+    
 
 }
 
