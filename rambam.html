@@ -200,7 +200,9 @@ function non_perek_text(rambam){
 
 function onechapter(date){
     difference=get_difference(date);
+    var machzor = 1;
     while (difference > 1017){
+        machzor=machzor+1;
         difference = difference - 1017;
     }
 
@@ -211,7 +213,9 @@ function onechapter(date){
 }
 function threechapter(date){
     difference=get_difference(date);
+    var machzor = 1;
     while (difference > 339){
+        machzor=machzor+1;
         difference = difference - 339;
     }
     section=difference*3;
