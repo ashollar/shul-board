@@ -93,7 +93,7 @@
       return i;
     }
 </script>
-<body onload="initialize()" style="font-size:100px;text-align:center;margin:0px;height:100vh;background-image:url('background2.jpg');">
+<body onload="initialize()" style="font-size:60px;text-align:center;margin:0px;height:100vh;background-image:url('background2.jpg');">
  
   <div id="overlay" style="height:100vh;width:100vw;z-index:10;display:block;position: fixed;top: 0;left: 0;">
     <div style="width:100vw;height:4vh;background-color:rgb(104,10,32);">
