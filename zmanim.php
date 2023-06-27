@@ -37,6 +37,7 @@
       vertical-align: middle;
       font-size:70px;
       line-height: 70px;
+      padding:8px;
       z-index:11;
       width:30vw;
       background-color:white;
