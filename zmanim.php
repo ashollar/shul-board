@@ -38,11 +38,12 @@
       width:30vw;
       height:6vh;
       background-color:white;
+      color:rgb(104,10,32);
       position:absolute;
       left: 50%;
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      bottom:50px;
+      bottom:20px;
       border-radius:30px;
     }
   </style>
