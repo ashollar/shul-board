@@ -104,7 +104,9 @@
     <div style="width:100vw;height:6vh;background-color:rgb(104,10,32);position:absolute;bottom:0px;">
     </div>
   </div>
-    <div id="clock" class="clock"></div>
+    <div class="clock">
+      <p id="clock"></p>
+    </div>
   </div>
 
   <div id="frame1" class="frame">
