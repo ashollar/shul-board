@@ -33,7 +33,7 @@
       transform: translate(-50%, -50%);
     }
     .clock{
-      font-size:180px;
+      font-size:46px;
       z-index:11;
       width:30vw;
       height:6vh;
