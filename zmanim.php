@@ -42,7 +42,7 @@
       position:absolute;
       left: 50%;
       transform: translate(-50%, -50%);
-      bottom:100vh - 20;
+      top:100vh - 20;
       border-radius:30px;
     }
   </style>
