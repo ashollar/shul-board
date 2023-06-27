@@ -46,6 +46,7 @@
       transform: translate(-50%, -50%);
       top:calc(100% - 50px);
       border-radius:30px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
   </style>
   </head>
