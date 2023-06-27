@@ -33,6 +33,8 @@
       transform: translate(-50%, -50%);
     }
     .clock{
+      display:block;
+      vertical-align: middle;
       font-size:46px;
       z-index:11;
       width:30vw;
