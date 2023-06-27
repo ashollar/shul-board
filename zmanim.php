@@ -155,7 +155,7 @@
   </div>
   <div id="frame3" class="frame">
     <div class="center">
-      <h1>hi</h1>
+      <img url="rebbe.jpeg"></img>
     </div>
   </div>
   
