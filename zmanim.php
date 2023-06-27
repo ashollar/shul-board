@@ -47,6 +47,10 @@
       top:calc(100% - 50px);
       border-radius:30px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      height: 100px;
+
+      line-height: 6vh;
+      text-align: center;
     }
   </style>
   </head>
