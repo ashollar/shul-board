@@ -66,7 +66,7 @@
       setInterval(shiftframes,6000);
     }
     function updater(){
-      location.reload();
+      //location.reload();
 
     }
     function shiftframes(){
