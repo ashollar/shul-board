@@ -35,7 +35,8 @@
     .clock{
       display:block;
       vertical-align: middle;
-      font-size:46px;
+      font-size:54px;
+      line-height: 54px;
       z-index:11;
       width:30vw;
       background-color:white;
@@ -47,7 +48,7 @@
       border-radius:30px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-      line-height: 46px;
+      
       text-align: center;
     }
   </style>
