@@ -41,9 +41,8 @@
       color:rgb(104,10,32);
       position:absolute;
       left: 50%;
-      -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      bottom:20px;
+      bottom:100vh - 20;
       border-radius:30px;
     }
   </style>
