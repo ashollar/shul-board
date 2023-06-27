@@ -38,7 +38,6 @@
       font-size:46px;
       z-index:11;
       width:30vw;
-      height:6vh;
       background-color:white;
       color:rgb(104,10,32);
       position:absolute;
