@@ -306,6 +306,7 @@ function dailystudy(){
 
     }
     $shiurim["Daily Chumash with Rashi"]=explode(",",$rawarray[0]["description"])[1];
+    $shiurim["Daily Chumash with Rashi"]=explode(" ",$shiurim["Daily Chumash with Rashi"])[2];
 
 
 
