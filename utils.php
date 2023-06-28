@@ -299,7 +299,6 @@ function dailystudy(){
     //select useful data and add to new array
     //print_r($rawarray);
     $shiurim=array();
-    print_r($rawarray);
     foreach($rawarray as $item){
         $name=$item['title'];
         $shiurim[$name]=explode(":",$item['description'])[1];;
