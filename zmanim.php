@@ -191,8 +191,8 @@
     <div class="dates" id="hebdate" style="grid-column:3;">
     </div>
     <div class="dates" style="grid-column:1;grid-row:1;">
-      <p>פרשת</p style="margin:0;">
-      <p id="parsha" style="margin:0;"></p>
+      <p>פרשת</p style="margin:0px;">
+      <p id="parsha" style="margin:0px;"></p>
     </div>
     
   </div>
