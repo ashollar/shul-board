@@ -16,6 +16,7 @@
       width:100%;
       margin:0px;
       z-index:1;
+      grid-row:2;
 
     }
     .center {
@@ -103,7 +104,7 @@
 <body onload="initialize()" style="display:grid;font-size:70px;text-align:center;margin:0px;height:100vh;background-image:url('background2.jpg');">
   
   <div style="width:100vw;height:4vh;background-color:rgb(104,10,32);">
-    <h1 style="color:rgb(240,136,39);margin:0px;font-size:50px; text-align:right;">ב"ה</h1>
+    <h1 style="grid-row:1;color:rgb(240,136,39);margin:0px;font-size:50px; text-align:right;">ב"ה</h1>
   </div>
 
  
@@ -159,7 +160,7 @@
     </div>
   </div>
 
-  <div style="width:100vw;height:6vh;background-color:rgb(104,10,32);position:absolute;bottom:0px;">
+  <div style="grid-row:1;width:100vw;height:6vh;background-color:rgb(104,10,32);">
   </div>
   
 
