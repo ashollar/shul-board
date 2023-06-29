@@ -19,15 +19,6 @@
       grid-row:1;
 
     }
-    .center {
-      width:100%;
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
     .clock{
       display:block;
       vertical-align: middle;
@@ -138,7 +129,7 @@
     </div>
   </div >
   <div id="frame2" class="frame" style="font-size:44px;">
-    <div class="center">
+
     <H2 style="margin:0px;">חומש</H2>
     <H1 style="margin:0px;"><?php echo $raw['Daily Chumash with Rashi'];?></H1>
 
@@ -156,12 +147,12 @@
 
     <H2 style="margin:0px;">ספר המצוות</H2>
     <H1 style="margin:0px;"><?php echo $raw['Daily Mitzvah - Sefer Hamitzvot'];?></H1>
-    </div>
+
   </div>
   <div id="frame3" class="frame">
-    <div class="center">
+
       <img src="rebbe.jpeg" style="width:90vw;"></img>
-    </div>
+
   </div>
 
   <div style="grid-row:2;width:100vw;height:6vh;background-color:rgb(104,10,32);">
