@@ -116,7 +116,6 @@
       if(date<10){date="0"+date;}
 
       let url= "https://www.hebcal.com/converter?cfg=json&date="+today.getFullYear()+"-"+month+"-"+date+"&g2h=1&strict=1";
-      console.log(url);
       const response = await fetch(url);
       const jsonData = await response.json();
       return jsonData;
@@ -135,7 +134,7 @@
 
       document.getElementById('hebdate').innerHTML =  weekDay;
       hebrewDate=hebdate()
-      document.getElementById('hebdate').innerHTML += "<br>"+hebrewDate["hebrew"];
+      document.getElementById('hebdate').innerHTML += "<br>"+hebrewDate;
 
       m = checkTime(m);
       try{document.getElementById('clock').innerHTML =  h + ":" + m ;}catch(err){}
