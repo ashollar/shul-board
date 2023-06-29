@@ -123,7 +123,7 @@
 
       document.getElementById('hebdate').innerHTML =  weekDay;
 
-      document.getElementById('hebdate').innerHTML += "<br>"+hebrewDate;
+      document.getElementById('hebdate').innerHTML += "<br>"+hebrewDate["hebrew"];
     }
     function startTime() {
       const today = new Date();
