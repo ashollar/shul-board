@@ -110,8 +110,16 @@
       const today = new Date();
       let h = today.getHours();
       let m = today.getMinutes();
+
       let wd = today.getDay()+1;
       let weekDay=weekDays[wd]["heb"];
+
+      async function logJSONData() {
+      const response = await fetch("https://www.hebcal.com/converter?cfg=json&date="+today.getFullYear()+today.getMonth()+today.getDate()+"&g2h=1&strict=1");
+      const jsonData = await response.json();
+      console.log(jsonData);
+}
+
       document.getElementById('hebdate').innerHTML =  weekDay;
       m = checkTime(m);
       try{document.getElementById('clock').innerHTML =  h + ":" + m ;}catch(err){}
