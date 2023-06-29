@@ -58,6 +58,10 @@
     let frame = 1;
     let frames = 3;
     function initialize(){
+      var width = screen.width;
+      var height = screen.height;
+      document.getElementById("overlay").innerHTML=width+" x "+height;
+      
       startTime();
       //check for updates
       setTimeout(updater, 600000);
