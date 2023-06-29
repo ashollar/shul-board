@@ -296,6 +296,7 @@ function dailystudy(){
     // Convert into associative array
     $newArr = json_decode($con, true);
     $rawarray=$newArr['channel']['item'];
+    print_r($rawarray);
     //select useful data and add to new array
     //print_r($rawarray);
     $shiurim=array();
