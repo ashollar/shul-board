@@ -118,7 +118,7 @@
       let url= "https://www.hebcal.com/converter?cfg=json&date="+today.getFullYear()+"-"+month+"-"+date+"&g2h=1&strict=1";
       const response = await fetch(url);
       const jsonData = await response.json();
-      console.log(jsonData);
+      console.log(jsonData["hebrew"]);
       return jsonData;
     }
     function startTime() {
