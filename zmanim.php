@@ -156,7 +156,7 @@
 
   </div>
 
-  <div style="width:100vw;background-color:rgb(104,10,32);">
+  <div style="width:100vw;height:100%;background-color:rgb(104,10,32);">
   </div>
   
 
