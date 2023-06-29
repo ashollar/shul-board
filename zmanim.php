@@ -126,7 +126,7 @@
       let h = today.getHours();
       let m = today.getMinutes();
 
-      document.getElementById('hebdate').innerHTML += "<br>"+hebdate()["hebrew"];
+      
 
       let wd = today.getDay()+1;
       let weekDay=weekDays[wd]["heb"];
@@ -134,6 +134,9 @@
 
 
       document.getElementById('hebdate').innerHTML =  weekDay;
+      hebrewDate=hebdate()
+      document.getElementById('hebdate').innerHTML += "<br>"+hebrewDate["hebrew"];
+
       m = checkTime(m);
       try{document.getElementById('clock').innerHTML =  h + ":" + m ;}catch(err){}
       
