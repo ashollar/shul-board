@@ -45,13 +45,10 @@
       vertical-align: middle;
       font-size:80px;
       line-height: 40px;
-      margin:10px;
-      padding:10px;
       background-color:white;
       color:rgb(104,10,32);
       border-radius:20px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-      height:100%;
 
       
       text-align: center;
@@ -188,7 +185,7 @@
   </div>
 
   <div style="align-items:center;display:grid; grid-template-columns:30vw 40vw 30vw;grid-row:3;width:100vw;height:100%;background-color:rgb(104,10,32);">
-    <div class="dates" id="hebdate" style="grid-column:3;grid-row:3;">
+    <div class="dates" id="hebdate" style="grid-column:3;grid-row:1;">
     </div>
     <div class="dates" id="parsha" style="grid-column:1;grid-row:1;">
     </div>
