@@ -41,6 +41,7 @@
     }
     body{
       grid-template-rows: 4vh auto 8vh;
+      align-items: center;
     }
   </style>
   </head>
