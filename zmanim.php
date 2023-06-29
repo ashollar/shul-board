@@ -47,7 +47,7 @@
   </style>
   </head>
   <script>
-    const weekdays={
+    const weekDays = {
 	    1:{"eng":"Sunday","heb":"יום ראשון"}
 	    2:{"eng":"Monday","heb":"יום שני"}
 	    3:{"eng":"Tuesday","heb":"יום שלישי"}
@@ -55,7 +55,8 @@
 	    5:{"eng":"Thursday","heb":"יום חמישי"}
 	    6:{"eng":"Friday","heb":"יום שישי"}
 	    7:{"eng":"Saturday","heb":"שבת קודש"}
-    }
+    };
+
     let frame = 1;
     let frames = 3;
     function initialize(){
@@ -95,7 +96,7 @@
       let h = today.getHours();
       let m = today.getMinutes();
       let wd = today.getDay();
-      let weekDay=weekdays[wd]["heb"]
+      let weekDay=weekDays[wd]["heb"];
       document.getElementById('hebdate').innerHTML =  weekDay;
       m = checkTime(m);
       try{document.getElementById('clock').innerHTML =  h + ":" + m ;}catch(err){}
