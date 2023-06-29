@@ -35,9 +35,9 @@
     .clock{
       display:block;
       vertical-align: middle;
-      font-size:110x;
+      font-size:110px;
       line-height: 70px;
-      padding:8px;
+      padding:20px;
       z-index:11;
       width:30vw;
       background-color:white;
@@ -107,7 +107,7 @@
  
   <div id="overlay" style="height:100vh;width:100vw;z-index:10;display:block;position: fixed;top: 0;left: 0;">
     <div style="width:100vw;height:4vh;background-color:rgb(104,10,32);">
-      <h1 style="color:rgb(240,136,39);margin:0px;font-size:30px; text-align:right;">ב"ה</h1>
+      <h1 style="color:rgb(240,136,39);margin:0px;font-size:50px; text-align:right;">ב"ה</h1>
     </div>
     <div style="width:100vw;height:6vh;background-color:rgb(104,10,32);position:absolute;bottom:0px;">
     </div>
