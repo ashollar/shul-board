@@ -48,12 +48,12 @@
   </head>
   <script>
     const weekDays = {
-	    1:{"eng":"Sunday","heb":"יום ראשון"}
-	    2:{"eng":"Monday","heb":"יום שני"}
-	    3:{"eng":"Tuesday","heb":"יום שלישי"}
-	    4:{"eng":"Wednesday","heb":"יום רביעי"}
-	    5:{"eng":"Thursday","heb":"יום חמישי"}
-	    6:{"eng":"Friday","heb":"יום שישי"}
+	    1:{"eng":"Sunday","heb":"יום ראשון"},
+	    2:{"eng":"Monday","heb":"יום שני"},
+	    3:{"eng":"Tuesday","heb":"יום שלישי"},
+	    4:{"eng":"Wednesday","heb":"יום רביעי"},
+	    5:{"eng":"Thursday","heb":"יום חמישי"},
+	    6:{"eng":"Friday","heb":"יום שישי"},
 	    7:{"eng":"Saturday","heb":"שבת קודש"}
     };
 
