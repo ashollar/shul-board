@@ -106,7 +106,7 @@
       }
 
     }
-    async function logJSONData() {
+    async function hebdate() {
       const today = new Date();
 
       let month=today.getMonth();
@@ -119,14 +119,14 @@
       console.log(url);
       const response = await fetch(url);
       const jsonData = await response.json();
-      console.log(jsonData);
+      return jsonData;
     }
     function startTime() {
       const today = new Date();
       let h = today.getHours();
       let m = today.getMinutes();
 
-      logJSONData();
+      document.getElementById('hebdate').innerHTML += "<br>"+hebdate()["heDateParts"];
 
       let wd = today.getDay()+1;
       let weekDay=weekDays[wd]["heb"];
