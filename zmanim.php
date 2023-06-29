@@ -117,7 +117,7 @@
 
       let url= "https://www.hebcal.com/converter?cfg=json&date="+today.getFullYear()+"-"+month+"-"+date+"&g2h=1&strict=1";
       const response = await fetch(url);
-      const jsonData = await response.json();
+      const hebrewDate = await response.json();
       let wd = today.getDay()+1;
       let weekDay=weekDays[wd]["heb"];
 
