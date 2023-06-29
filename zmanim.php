@@ -80,14 +80,14 @@
       
       startTime();
       //check for updates
-      setTimeout(updater, 600000);
+      setTimeout(updater, 3600000);
       //shift frames
       
       setInterval(shiftframes,6000);
       hebdate();
     }
     function updater(){
-      //location.reload();
+      location.reload();
 
     }
     function shiftframes(){
