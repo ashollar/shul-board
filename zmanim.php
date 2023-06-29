@@ -32,7 +32,7 @@
       position:absolute;
       left: 50%;
       transform: translate(-50%, -50%);
-      top:calc(100% - 110px);
+      top:calc(100% - 140px);
       border-radius:30px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
