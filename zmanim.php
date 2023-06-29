@@ -95,7 +95,7 @@
       const today = new Date();
       let h = today.getHours();
       let m = today.getMinutes();
-      let wd = today.getDay();
+      let wd = today.getDay()+1;
       let weekDay=weekDays[wd]["heb"];
       document.getElementById('hebdate').innerHTML =  weekDay;
       m = checkTime(m);
