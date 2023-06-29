@@ -122,7 +122,7 @@
       let weekDay=weekDays[wd]["heb"];
 
       document.getElementById('hebdate').innerHTML =  weekDay;
-      hebrewDate=hebdate()
+
       document.getElementById('hebdate').innerHTML += "<br>"+hebrewDate;
     }
     function startTime() {
@@ -130,7 +130,7 @@
       let h = today.getHours();
       let m = today.getMinutes();
 
-      
+      hebdate()
 
       
 
