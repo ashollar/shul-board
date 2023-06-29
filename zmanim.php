@@ -189,7 +189,7 @@
   <div style="display:grid; grid-template-columns:30vw 40vw 30vw;grid-row:3;width:100vw;height:100%;background-color:rgb(104,10,32);">
     <div class="dates" id="hebdate" style="grid-column:3;">
     </div>
-    <div class="dates" style="grid-column:1;">
+    <div class="dates" style="grid-column:1;grid-row:1;">
       <p>פרשת</p>
       <p id="parsha"></p>
     </div>
