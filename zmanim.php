@@ -51,6 +51,7 @@
       color:rgb(104,10,32);
       border-radius:20px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      height:100%;
 
       
       text-align: center;
@@ -190,8 +191,8 @@
     <div class="dates" id="hebdate" style="grid-column:3;">
     </div>
     <div class="dates" style="grid-column:1;grid-row:1;">
-      <p>פרשת</p>
-      <p id="parsha"></p>
+      <p>פרשת</p style="margin:0;">
+      <p id="parsha" style="margin:0;"></p>
     </div>
     
   </div>
