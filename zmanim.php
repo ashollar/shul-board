@@ -47,6 +47,15 @@
   </style>
   </head>
   <script>
+    const weekdays={
+	    1:{"eng":"Sunday","heb":"יום ראשון"}
+	    2:{"eng":"Monday","heb":"יום שני"}
+	    3:{"eng":"Tuesday","heb":"יום שלישי"}
+	    4:{"eng":"Wednesday","heb":"יום רביעי"}
+	    5:{"eng":"Thursday","heb":"יום חמישי"}
+	    6:{"eng":"Friday","heb":"יום שישי"}
+	    7:{"eng":"Saturday","heb":"שבת קודש"}
+    }
     let frame = 1;
     let frames = 3;
     function initialize(){
@@ -85,8 +94,12 @@
       const today = new Date();
       let h = today.getHours();
       let m = today.getMinutes();
+      let wd = today.getDay();
+      let weekDay=weekdays[wd]["heb"]
+      document.getElementById('hebdate').innerHTML =  weekDay;
       m = checkTime(m);
       try{document.getElementById('clock').innerHTML =  h + ":" + m ;}catch(err){}
+      
       setTimeout(startTime, 1000);
     }
 
@@ -157,7 +170,10 @@
 
   </div>
 
-  <div style="grid-row:3;width:100vw;height:100%;background-color:rgb(104,10,32);">
+  <div style="display:grid; grid-template-columns:30vw 40vw 30vw;grid-row:3;width:100vw;height:100%;background-color:rgb(104,10,32);">
+    <div id="hebdate">
+    </div>
+    
   </div>
   
 
