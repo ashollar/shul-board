@@ -108,7 +108,9 @@
     }
     async function logJSONData() {
       const today = new Date();
-      const response = await fetch("https://www.hebcal.com/converter?cfg=json&date="+today.getFullYear()+today.getMonth()+today.getDate()+"&g2h=1&strict=1");
+      let url= "https://www.hebcal.com/converter?cfg=json&date="+today.getFullYear()+today.getMonth()+today.getDate()+"&g2h=1&strict=1";
+      console.log(url);
+      const response = await fetch(url);
       const jsonData = await response.json();
       console.log(jsonData);
     }
