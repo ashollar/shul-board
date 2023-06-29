@@ -84,6 +84,7 @@
       //shift frames
       
       setInterval(shiftframes,6000);
+      hebdate();
     }
     function updater(){
       //location.reload();
@@ -125,14 +126,14 @@
 
       document.getElementById('hebdate').innerHTML =  weekDay;
 
-      document.getElementById('hebdate').innerHTML += "<br>"+hebrewDate["d"]+hebrewDate["m"];
+      document.getElementById('hebdate').innerHTML += "<br>"+hebrewDate["d"]+" "+hebrewDate["m"];
     }
     function startTime() {
       const today = new Date();
       let h = today.getHours();
       let m = today.getMinutes();
 
-      hebdate();
+      
 
       
 
