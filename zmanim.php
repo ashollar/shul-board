@@ -118,8 +118,12 @@
       let url= "https://www.hebcal.com/converter?cfg=json&date="+today.getFullYear()+"-"+month+"-"+date+"&g2h=1&strict=1";
       const response = await fetch(url);
       const jsonData = await response.json();
-      console.log(jsonData["hebrew"]);
-      return jsonData;
+      let wd = today.getDay()+1;
+      let weekDay=weekDays[wd]["heb"];
+
+      document.getElementById('hebdate').innerHTML =  weekDay;
+      hebrewDate=hebdate()
+      document.getElementById('hebdate').innerHTML += "<br>"+hebrewDate;
     }
     function startTime() {
       const today = new Date();
@@ -128,14 +132,7 @@
 
       
 
-      let wd = today.getDay()+1;
-      let weekDay=weekDays[wd]["heb"];
-
-
-
-      document.getElementById('hebdate').innerHTML =  weekDay;
-      hebrewDate=hebdate()
-      document.getElementById('hebdate').innerHTML += "<br>"+hebrewDate;
+      
 
       m = checkTime(m);
       try{document.getElementById('clock').innerHTML =  h + ":" + m ;}catch(err){}
