@@ -44,7 +44,7 @@
       display:block;
       vertical-align: middle;
       font-size:70px;
-      line-height: 40px;
+      line-height: 60px;
       background-color:white;
       color:rgb(104,10,32);
       border-radius:20px;
