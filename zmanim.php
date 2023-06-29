@@ -43,14 +43,14 @@
     .dates{
       display:block;
       vertical-align: middle;
-      font-size:80px;
+      font-size:70px;
       line-height: 40px;
       background-color:white;
       color:rgb(104,10,32);
       border-radius:20px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       margin:10px;
-      padding:10px;
+      padding:0px;
 
       
       text-align: center;
