@@ -17,6 +17,7 @@
       margin:0px;
       z-index:1;
       grid-row:2;
+      overflow: clip;
 
     }
     .clock{
