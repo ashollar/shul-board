@@ -35,7 +35,7 @@
     .clock{
       display:block;
       vertical-align: middle;
-      font-size:70px;
+      font-size:100px;
       line-height: 70px;
       padding:8px;
       z-index:11;
@@ -100,7 +100,7 @@
       return i;
     }
 </script>
-<body onload="initialize()" style="font-size:40px;text-align:center;margin:0px;height:100vh;background-image:url('background2.jpg');">
+<body onload="initialize()" style="font-size:60px;text-align:center;margin:0px;height:100vh;background-image:url('background2.jpg');">
  
   <div id="overlay" style="height:100vh;width:100vw;z-index:10;display:block;position: fixed;top: 0;left: 0;">
     <div style="width:100vw;height:4vh;background-color:rgb(104,10,32);">
