@@ -102,10 +102,8 @@
       if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
       return i;
     }
-    var source = new EventSource("demo_sse.php");
-      source.onmessage = function(event) {
-      document.getElementById("result").innerHTML += event.data + "<br>";
-};
+    var source = new EventSource("updater.php");
+      source.onmessage = location.reload();
 </script>
 <body onload="initialize()" style="font-size:70px;text-align:center;margin:0px;height:100vh;background-image:url('background2.jpg');">
  
