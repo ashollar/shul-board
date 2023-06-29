@@ -108,6 +108,8 @@
     }
     async function logJSONData() {
       const today = new Date();
+      let month=today.getMonth();
+      if(month<10){month="0"+month;}
       let url= "https://www.hebcal.com/converter?cfg=json&date="+today.getFullYear()+"-"+today.getMonth()+"-"+today.getDate()+"&g2h=1&strict=1";
       console.log(url);
       const response = await fetch(url);
