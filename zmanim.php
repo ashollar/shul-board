@@ -40,6 +40,20 @@
       
       text-align: center;
     }
+    .dates{
+      display:block;
+      vertical-align: middle;
+      font-size:80px;
+      line-height: 40px;
+      padding:10px;
+      background-color:white;
+      color:rgb(104,10,32);
+      border-radius:20px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+      
+      text-align: center;
+    }
     body{
       grid-template-rows: 4vh auto 8vh;
       align-items: center;
@@ -172,7 +186,7 @@
   </div>
 
   <div style="display:grid; grid-template-columns:30vw 40vw 30vw;grid-row:3;width:100vw;height:100%;background-color:rgb(104,10,32);">
-    <div id="hebdate">
+    <div class="dates" id="hebdate">
     </div>
     
   </div>
