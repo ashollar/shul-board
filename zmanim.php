@@ -190,7 +190,6 @@
     <div class="dates" id="hebdate" style="grid-column:3;grid-row:1;">
     </div>
     <div class="dates" id="parsha" style="grid-column:1;grid-row:1;">
-    pizza
     </div>
     
   </div>
