@@ -126,7 +126,7 @@
       let h = today.getHours();
       let m = today.getMinutes();
 
-      document.getElementById('hebdate').innerHTML += "<br>"+hebdate()["heDateParts"]["d"];
+      document.getElementById('hebdate').innerHTML += "<br>"+hebdate()["hebrew"];
 
       let wd = today.getDay()+1;
       let weekDay=weekDays[wd]["heb"];
