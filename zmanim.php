@@ -60,7 +60,6 @@
     function initialize(){
       var width = screen.width;
       var height = screen.height;
-      document.getElementById("overlay").innerHTML=width+" x "+height;
       
       startTime();
       //check for updates
