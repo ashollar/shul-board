@@ -16,10 +16,6 @@
       width:100%;
       margin:0px;
       z-index:1;
-      position:
-      fixed;
-      top: 0;
-      left: 0;
 
     }
     .center {
@@ -104,7 +100,7 @@
 
 
 </script>
-<body onload="initialize()" style="font-size:70px;text-align:center;margin:0px;height:100vh;background-image:url('background2.jpg');">
+<body onload="initialize()" style="display:grid;font-size:70px;text-align:center;margin:0px;height:100vh;background-image:url('background2.jpg');">
   
   <div style="width:100vw;height:4vh;background-color:rgb(104,10,32);">
     <h1 style="color:rgb(240,136,39);margin:0px;font-size:50px; text-align:right;">ב"ה</h1>
