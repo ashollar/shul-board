@@ -48,6 +48,9 @@
       
       text-align: center;
     }
+    body{
+      grid-template-rows: 4vh auto 8vh;
+    }
   </style>
   </head>
   <script>
@@ -98,6 +101,7 @@
       if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
       return i;
     }
+  
 
 
 </script>
