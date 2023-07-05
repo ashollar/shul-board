@@ -110,7 +110,7 @@
     async function hebdate() {
       const today = new Date();
 
-      let month=today.getMonth();
+      let month=today.getMonth()+1;
       if(month<10){month="0"+month;}
 
       let date=today.getDate()+1;
