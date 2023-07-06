@@ -73,7 +73,7 @@
     };
 
     let frame = 1;
-    let frames = 3;
+    let frames = 4;
     function initialize(){
       var width = screen.width;
       var height = screen.height;
@@ -207,6 +207,11 @@
 
   </div>
   <div id="frame3" class="frame">
+
+      <img src="rebbe.jpeg" style="width:90vw;"></img>
+
+  </div>
+  <div id="frame4" class="frame">
 
       <img src="rebbe.jpeg" style="width:90vw;"></img>
 
