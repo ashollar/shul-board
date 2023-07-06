@@ -1,6 +1,6 @@
 const today = new Date();
 
-      let month=today.getMonth();
+      let month=today.getMonth()+1;
       console.log(month);
       if(month<10){month="0"+month;}
 
