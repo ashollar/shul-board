@@ -213,7 +213,11 @@
   </div>
   <div id="frame4" class="frame">
 
-      <img src="rebbe.jpeg" style="width:90vw;"></img>
+  <div class="center">
+    <H1>לוח סדר היום</H1>
+  </div>
+  
+  
 
   </div>
 
