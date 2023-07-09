@@ -216,16 +216,16 @@
   <div class="center">
     <H1>לוח סדר היום</H1>
   </div>
-    <H2>חסידות</H2>
-    <H1>8:00</H1>
-    <H2>שחרית</H2>
-    <H1>9:20</H1>
-    <H2>גמרא לעיון</H2>
-    <H1>11:15</H1>
-    <H2>מנחה</H2>
-    <H1>2:15</H1>
+    <H2 style="margin:0px;">חסידות</H2>
+    <H1 style="margin:0px;">8:00</H1>
+    <H2 style="margin:0px;">שחרית</H2>
+    <H1 style="margin:0px;">9:20</H1>
+    <H2 style="margin:0px;">גמרא לעיון</H2>
+    <H1 style="margin:0px;">11:15</H1>
+    <H2 style="margin:0px;">מנחה</H2>
+    <H1 style="margin:0px;">2:15</H1>
   
-
+  </div>
   </div>
 
   <div style="display:grid; grid-template-columns:30vw 40vw 30vw;grid-row:3;width:100vw;height:100%;background-color:rgb(104,10,32);">
